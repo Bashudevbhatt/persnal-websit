@@ -116,9 +116,76 @@
 
         
     </style>
+    .hero {
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 60px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+
+    text-align: left;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.small-title {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #1565c0;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin: 10px 0;
+    color: #1565c0;
+}
+
+.hero h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #555;
+}
+
+.hero-text > p:not(.small-title) {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.photo-placeholder {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 50%;
+
+    background: #e3f2fd;
+    border: 8px solid white;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-icon {
+    color: #1565c0;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 </head>
 
 <body>
+    body {
+    text-align: center;
+}
 
     <nav class="navbar">
 <div class="nav-links"> Bashudev Bhatt</div>
@@ -129,53 +196,39 @@
         <a href="#science">Science</a>
         <a href="#project">Projects</a>
     </div>
-
-        
        
-
-        
 </nav>
-    <div class="welcome-box">
+<section class="hero">
 
-        <h1>Welcome!</h1>
+    <div class="hero-text">
+
+        <p class="small-title">WELCOME TO MY WEBSITE</p>
+
+        <h1>Bashudev Bhatt</h1>
+
+        <h2>Technology • Science • Knowledge</h2>
 
         <p>
-    Welcome to my personal website.
-    <br>
-    A place where I share ideas, projects,
-    technology and interesting knowledge.
-        </p>
-<h2>What you'll find</h2>
-
-<div class="cards">
-
-    <div class="card">
-        <h3>Science</h3>
-        <p>Interesting scientific ideas and knowledge.</p>
-    </div>
-
-    <div class="card">
-        <h3>Technology</h3>
-        <p>Technology, engineering and communication systems.</p>
-    </div>
-
-    <div class="card">
-        <h3>Projects</h3>
-        <p>Projects, experiments and things I have worked on.</p>
-    </div>
-
-</div>
-        <p>
-            This page is under construction.
+            I am interested in science, technology,
+            engineering and communication systems.
+            This website is a place where I share
+            ideas, projects and interesting knowledge.
         </p>
 
-        <a href="#" class="button">Explore More</a>
+        <a href="#about" class="button">Explore More</a>
 
-        <footer>
-            © Bashudev Bhatt          My Website. All Rights Reserved.
-        </footer>
+    </div>
 
-   </div>
+
+    <div class="photo-placeholder">
+
+        <div class="photo-icon">PHOTO</div>
+
+    </div>
+body {
+    text-align: center;
+}
+</section>
 
     <section id="about">
         <h2>About Me</h2>
