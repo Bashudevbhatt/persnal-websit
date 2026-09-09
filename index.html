@@ -9,6 +9,34 @@
 
     <style>
         /* Page background */
+        .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: white;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1565c0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #1565c0;
+}
         body {
             margin: 0;
             font-family: Arial, sans-serif;
@@ -87,6 +115,18 @@
 
 <body>
 
+    <nav class="navbar">
+
+    <div class="logo">Bashudev Bhatt</div>
+
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Science</a>
+        <a href="#">Projects</a>
+    </div>
+
+</nav>
     <div class="welcome-box">
 
         <h1>Welcome!</h1>
